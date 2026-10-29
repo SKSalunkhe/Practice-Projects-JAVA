@@ -57,6 +57,7 @@ public class Calculator {
                     case 4 : result = div(a, b); break;
                 }
                 System.out.println("Result = " + result);
+                System.out.println("Thank You...");
                 break;
             }
             catch (ArithmeticException e){
