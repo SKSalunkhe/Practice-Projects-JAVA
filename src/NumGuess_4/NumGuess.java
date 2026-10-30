@@ -9,7 +9,7 @@ public class NumGuess {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
 
-        int secret = random.nextInt(10) + 1;
+        int secret = random.nextInt(100) + 1;
         int guess = 0;
         int attempts = 0;
 
