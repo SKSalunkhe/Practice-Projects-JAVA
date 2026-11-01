@@ -42,7 +42,7 @@ public class TextFileAnalyzer {
             System.out.println("Lines : " + lines);
             System.out.println("Words : " + words);
             System.out.println("MAtches : " + matches);
-            System.out.println("\"" + target + "\" found " + matches + " time(s)." );
+            System.out.println("\"" + target + "\" found " + matches + "  time(s)." );
         } catch (FileNotFoundException e) {
             System.out.println("File not Found..." + path);
         }
